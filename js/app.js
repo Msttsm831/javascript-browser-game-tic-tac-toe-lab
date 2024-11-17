@@ -46,11 +46,11 @@ function updateBoard() {
 
         if (cellValue === 'X') {
             square.textContent = 'X'
-            square.style.color = 'red' 
+            square.style.color = 'Yellow' 
         } 
         else if (cellValue === 'O') {
             square.textContent = 'O'
-            square.style.color = 'blue' 
+            square.style.color = 'Red' 
         } 
         else {
             square.textContent = '' 
